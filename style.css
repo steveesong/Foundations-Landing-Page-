@@ -58,7 +58,7 @@ a {
     margin-bottom: 12px;
 }
 
-.blue{
+.blue {
     background-color: #3882F6;
     color:#E5E7EB;
     font-size: 18px;
@@ -110,4 +110,71 @@ a {
 .text {
     color: #1F2937;
     width: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 110px 0 90px 0;
+}
+
+.quotecontainer {
+    width: 800px;
+}
+
+.statement {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 90px 200px;
+    padding: 50px;
+    border-radius: 8px;
+    gap: 180px;
+}
+
+.actioncontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.actiontext {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.clear {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    padding: 6px 32px;    
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #1F2937;
+    color:#F9FAF8;
 }
